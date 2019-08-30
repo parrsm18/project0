@@ -45,4 +45,5 @@ int main(){
             cout << "No solution" << endl;
         }
     }
+    return 0;
 }
