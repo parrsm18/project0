@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    //declaration of variables to be used
+    //declaration of variables to be used.
     int coefx1;
     int coefx2;
     int coefy1;
@@ -15,7 +15,7 @@ int main(){
     int randx;
     int randy;
 
-    //Accept input from the user
+    //Accept input from the user.
     cout << "Please enter the coefficient of x for the first equation" << endl;
     cin >> coefx1;
     cout << "Please enter the coefficient of y for the first equation" << endl;
@@ -29,7 +29,7 @@ int main(){
     cout << "Please enter the constant for the second equation" << endl;
     cin >> const2;
 
-    //Brute force the solution to the system
+    //Brute force the solution to the system.
     while (!complete){
         srand(time(0));
         randx = (rand() % 21) - 10;
